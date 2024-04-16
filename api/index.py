@@ -6,15 +6,14 @@ status = "Ntg"
 
 @app.route('/')
 def home():
-    if(status == "Ntg"):
-        status == "Yes"
+    status == "Yes"
     return status
 @app.route('/no')
-def home():
+def no():
     status == "No"
     return status
 @app.route('/status')
-def home():
+def status():
     return status
 @app.route('/about')
 def about():
